@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+body{ background:#2b8a86; margin:0px; padding:0px; font-size:12px; font-family:"微软雅黑";}
+ul,li,h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px;}
+li{ list-style:none;}
+
+a{ text-decoration:none; color:#2b8a86}
+.clear{ clear:both}
+
+.container{ width:980px; margin:0 auto; background:#FFF}
+.top{ background:url(../images/topbg.gif) repeat-x; height:27px;}
+.nav{ background:url(../images/navbg.jpg) repeat-x; height:39px;}
+.nav ul{ margin-left:30px;}
+.nav li{ float:left; height:39px; line-height:39px; margin-right:10px;}
+.nav li a{ color:#FFF; font-size:14px; font-weight:bold; padding:10px;}
+.nav li a:hover{ background:url(../images/nav_hover.jpg) no-repeat;}
+
+.login{ background:url(../images/loginbg.jpg) repeat-x; height:80px;}
+
+    /*第一栏目开始*/
+.flash{ width:280px; height:300px; border:1px solid #2b8a86; float:left; margin-left:10px; margin-top:10px;}
+
+.hotnews{ width:428px; height:300px;float:left; margin-left:10px; margin-top:10px;}
+.hotnews li{ height:66px; border-bottom:1px dashed #dfdfdf; margin-bottom:10px;}
+.hotnews li a{ font-size:14px; font-weight:bold;}
+
+.tjnews{ width:228px; height:300px; border:1px solid #2b8a86; float:left; margin-left:10px; margin-top:10px;}
+.title_bg{ background:url(../images/title_bg.jpg) no-repeat; height:20px;}
+.title_bg strong{ color:#2b8a86; line-height:20px; padding:14px;}
+.tjnews lu{ padding-left:10px;}
+.tjnews li{ height:27px; line-height:27px; border-bottom:1px dashed #dedede;}
+.tjnews a{ padding-left:30px;}
+.no1{ background:url(../images/tj_no.gif) no-repeat;}
+.no2{ background:url(../images/tj_no.gif) 0px -30px no-repeat;}
+.no3{ background:url(../images/tj_no.gif) 0px -60px no-repeat;}
+.no4{ background:url(../images/tj_no.gif) 0px -90px no-repeat;}
+.no5{ background:url(../images/tj_no.gif) 0px -120px no-repeat;}
+.no6{ background:url(../images/tj_no.gif) 0px -150px no-repeat;}
+.no7{ background:url(../images/tj_no.gif) 0px -180px no-repeat;}
+.no8{ background:url(../images/tj_no.gif) 0px -210px no-repeat;}
+.no9{ background:url(../images/tj_no.gif) 0px -240px no-repeat;}
+.no10{ background:url(../images/tj_no.gif) 0px -270px no-repeat;}
+    /*第一栏目结束*/
+
+    /*第二栏目开始*/
+.newslist{ width:310px; height:294px; border:1px solid #2b8a86; margin-top:10px; margin-left:10px; float:left;}
+.newslist ul{ margin-left:10px;}
+.newslist li{ height:33px; line-height:33px; border-bottom:1px dashed #999999;}
+.newslist li span{ float:right; color:#263548; margin-right:10px;}
+.newslist li a{}
+.title_bg2{ background:url(../images/title_bg2.jpg) no-repeat; height:20px;}
+.title_bg2 strong{ color:#2b8a86; line-height:20px; padding-left:12px;}
